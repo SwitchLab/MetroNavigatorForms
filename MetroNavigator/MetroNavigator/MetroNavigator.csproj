@@ -57,6 +57,11 @@
     </Compile>
     <Compile Include="Map.Designer.cs">
       <DependentUpon>Map.cs</DependentUpon>
+    <Compile Include="MapNPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MapNPlan.Designer.cs">
+      <DependentUpon>MapNPlan.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +70,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Map.resx">
       <DependentUpon>Map.cs</DependentUpon>
+    <EmbeddedResource Include="MapNPlan.resx">
+      <DependentUpon>MapNPlan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,6 +95,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\metro_moscow_map.png" />
+    <Content Include="LayAbove.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LayBelow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
