@@ -35,7 +35,7 @@
             // 
             // navigationButton
             // 
-            this.navigationButton.Location = new System.Drawing.Point(70, 56);
+            this.navigationButton.Location = new System.Drawing.Point(83, 55);
             this.navigationButton.Name = "navigationButton";
             this.navigationButton.Size = new System.Drawing.Size(272, 78);
             this.navigationButton.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // meetingsButton
             // 
-            this.meetingsButton.Location = new System.Drawing.Point(70, 254);
+            this.meetingsButton.Location = new System.Drawing.Point(83, 254);
             this.meetingsButton.Name = "meetingsButton";
             this.meetingsButton.Size = new System.Drawing.Size(272, 89);
             this.meetingsButton.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(70, 482);
+            this.exitButton.Location = new System.Drawing.Point(83, 484);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(272, 93);
             this.exitButton.TabIndex = 2;
